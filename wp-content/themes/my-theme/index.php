@@ -31,12 +31,7 @@ if ( have_posts() ) {
     <section class="conference">
       <div class="conf_globlal">
           <h1 class="titre"> <?php the_field('conference_title'); ?></h1>
-          <p class="textconf"> Les  Rencontres de la Fondation s'intitulent cette année 
-          Chaine alimentaire végétale et durabilité: une question d'équilibre! Elles se tiendront
-          le 03 décembre prochain à Bruxelles et auront pour objectif de décrypterr la transition
-          nutritionnelle des systèmes alimentaires à trvaers le monde, qui appelle à 
-          favoriser une alimentation plus végétale.
-          </p> 
+          <p class="textconf"><?php the_field('conference_content'); ?> </p> 
       </div>
     </section> 
     <section class="programme">
