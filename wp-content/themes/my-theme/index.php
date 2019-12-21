@@ -21,9 +21,9 @@ if ( have_posts() ) {
     <section class="banniere">
       <div class="desc">
         <p class="rencontre"><?php the_field('banner_baseline'); ?></p>
-        <p class="chaine"><b><?php the_field('banner_title_brown'); ?>chaine alimentaire végétale et durabilité</b></p>
-        <p class="question"><b>une question d'équilibre !</b></p>
-        <button class="buttonInscris">s'inscrire aux rencontres</button>
+        <p class="chaine"><b><?php the_field('banner_title_brown'); ?></b></p>
+        <p class="question"><b><?php the_field('banner_title_green'); ?></b></p>
+        <button class="buttonInscris"><?php the_field('banner_register_link'); ?></button>
       </div>
     
     </section>
